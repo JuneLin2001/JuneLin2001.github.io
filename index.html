@@ -1,207 +1,760 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-    
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Agency - Start Bootstrap Theme</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
 
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top"><img src="assets/img/YanJunLin.svg" alt="..." /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#team">Team</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-subheading">歡迎來到我的網站!</div>
+            <div class="masthead-heading text-uppercase">我是林彥均</div> <!--註解:字體加個大小不同-->
+            <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+        </div>
+    </header>
+    <!-- Services-->
+    <section class="page-section" id="services">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">我的技能</h2>
+                <h3 class="section-subheading text-muted">程式語言、影音特效、平面設計</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-code fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">程式語言</h4>
+                    <p class="text-muted"> HTML、CSS、JavaScript</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-solid fa-video fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">影音特效</h4>
+                    <p class="text-muted">ni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-regular fa-object-group fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">平面設計</h4>
+                    <p class="text-muted">a maxime qa impedit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+    <!-- POrtfolio start -->
+<section class="portfolio ">
+	<div class="container">
+		<div class="row mb-5">
+	      	<div class="col-10">
+		        <div class="btn-group btn-group-toggle " data-toggle="buttons">
+		          <label class="btn active ">
+		            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="shuffle-filter" value="design" />UI/UX Design
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="shuffle-filter" value="branding" />branding
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="shuffle-filter" value="illustration" />Web Development
+		          </label>
+		           <label class="btn">
+		            <input type="radio" name="shuffle-filter" value="photo" />Photography
+		          </label>
+		        </div>
+	      	</div>
+    	</div>	
 
-  
-<meta name="generator" content="Hexo 6.3.0"></head>
+		<div class="row shuffle-wrapper portfolio-gallery">
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item"  data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
+		      	<div class="position-relative inner-box">
+		          <div class="image position-relative ">
+	               <img src="images/portfolio/1.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content" href="portfolio-single.html">
+	                      <h5 class="mb-0">Painting</h5>
+	                      <p>Design</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+		      </div>
+	      </div>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;branding&quot;]">
+	        <div class="position-relative inner-box" >
+	            <div class="image position-relative ">
+	               <img src="images/portfolio/4.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+		                    <a class="overlay-content" href="portfolio-single.html">
+		                      <h5 class="mb-0">Web app</h5>
+		                      <p>Development</p>
+		                    </a>
+	                	</div> 
+		            </div>
+		        </div>
+		      </div>
+	      </div>
 
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/01/31/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2023-01-30T17:30:14.406Z" itemprop="datePublished">2023-01-31</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/01/31/hello-world/">Hello World</a>
-    </h1>
-  
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+	        <div class="position-relative inner-box">
+	            <div class="image position-relative ">
+	               <img src="images/portfolio/3.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content" href="portfolio-single.html">
+	                      <h5 class="mb-0">Business </h5>
+	                      <p>marketing</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+	        </div>
+	      </div>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;branding&quot;]">
+	        <div class="position-relative inner-box">
+	            <div class="image position-relative ">
+	               <img src="images/portfolio/5.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content" href="portfolio-single.html">
+	                      <h5 class="mb-0">Portfolio</h5>
+	                      <p>Design</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+	        </div>
+	      </div>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+	        <div class="position-relative inner-box">
+	            <div class="image position-relative ">
+	               <img src="images/portfolio/6.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content" href="portfolio-single.html">
+	                       <h5 class="mb-0 ">Modern web</h5>
+	                      	<p>Seo</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+	        </div>
+	      </div>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/01/31/hello-world/" data-id="cldj389by000000wc1ugvasti" data-title="Hello World" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-
-
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
+	        <div class="position-relative inner-box">
+	            <div class="image position-relative ">
+	               <img src="images/portfolio/7.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content" href="portfolio-single.html">
+	                       <h5 class="mb-0">Agency web</h5>
+	                      	<p>Design</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+	        </div>
+	      </div>
+	    </div>
+	</div>
 </section>
-        
-          <aside id="sidebar">
-  
-    
+<!-- Portfolio End -->
 
-  
-    
+    <!-- Portfolio Grid-->
+    <section class="page-section bg-light" id="portfolio">
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">January 2023</a></li></ul>
+        <div class="container">
+            
+            <div class="row mb-5">
+                <h2 class="section-heading text-uppercase">我的作品</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                  <div class="col-10">
+                    <div class="btn-group btn-group-toggle " data-toggle="buttons">
+                      <label class="btn active ">
+                        <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
+                      </label>
+                      <label class="btn">
+                        <input type="radio" name="shuffle-filter" value="design" />UI/UX Design
+                      </label>
+                      <label class="btn">
+                        <input type="radio" name="shuffle-filter" value="branding" />branding
+                      </label>
+                      <label class="btn">
+                        <input type="radio" name="shuffle-filter" value="illustration" />Web Development
+                      </label>
+                       <label class="btn">
+                        <input type="radio" name="shuffle-filter" value="photo" />Photography
+                      </label>
+                    </div>
+                  </div>
+            </div>	
+
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 1-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Threads</div>
+                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 2-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Explore</div>
+                            <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Finish</div>
+                            <div class="portfolio-caption-subheading text-muted">Identity</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <!-- Portfolio item 4-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Lines</div>
+                            <div class="portfolio-caption-subheading text-muted">Branding</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <!-- Portfolio item 5-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Southwest</div>
+                            <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Portfolio item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Window</div>
+                            <div class="portfolio-caption-subheading text-muted">Photography</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About-->
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">經歷</h2> <!--註解:分兩排，左邊學校右邊工作-->
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2009-2011</h4>
+                            <h4 class="subheading">Our Humble Beginnings</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
+                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>March 2011</h4>
+                            <h4 class="subheading">An Agency is Born</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
+                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>December 2015</h4>
+                            <h4 class="subheading">Transition to Full Service</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
+                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>July 2020</h4>
+                            <h4 class="subheading">Phase Two Expansion</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
+                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <h4>
+                            Be Part
+                            <br />
+                            Of Our
+                            <br />
+                            Story!
+                        </h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Team
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
+                            <h4>Parveen Anand</h4>
+                            <p class="text-muted">Lead Designer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
+                            <h4>Diana Petersen</h4>
+                            <p class="text-muted">Lead Marketer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                            <h4>Larry Parker</h4>
+                            <p class="text-muted">Lead Developer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                </div>
+            </div>
+        </section> -->
+    <!-- Clients-->
+    <!-- <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <!-- Contact -->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Contact Us</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">Copyright &copy; Yan-Jun,Lin 2023</div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                    <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Client:</strong>
+                                        Threads
+                                    </li>
+                                    <li>
+                                        <strong>Category:</strong>
+                                        Illustration
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2023/01/31/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Client:</strong>
+                                        Explore
+                                    </li>
+                                    <li>
+                                        <strong>Category:</strong>
+                                        Graphic Design
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2023 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Client:</strong>
+                                        Finish
+                                    </li>
+                                    <li>
+                                        <strong>Category:</strong>
+                                        Identity
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</footer>
-
+    <!-- Portfolio item 4 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Client:</strong>
+                                        Lines
+                                    </li>
+                                    <li>
+                                        <strong>Category:</strong>
+                                        Branding
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="/js/jquery-3.4.1.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
-  </div>
+    <!-- Portfolio item 5 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Client:</strong>
+                                        Southwest
+                                    </li>
+                                    <li>
+                                        <strong>Category:</strong>
+                                        Website Design
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 6 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Client:</strong>
+                                        Window
+                                    </li>
+                                    <li>
+                                        <strong>Category:</strong>
+                                        Photography
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
+
 </html>
